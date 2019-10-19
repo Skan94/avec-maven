@@ -24,4 +24,13 @@
 			<version>4.1.1</version>
 		</dependency>
 	</dependencies>
+
+        <distributionManagement>
+		<repository>
+			<id>deployment</id>
+			<name>Release</name>
+			<url>http://localhost:8081/repository/examen/</url>
+		</repository>
+	</distributionManagement>	
+       
 </project>
